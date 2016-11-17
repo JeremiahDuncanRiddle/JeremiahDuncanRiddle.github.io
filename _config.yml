@@ -109,21 +109,18 @@ kramdown:
   input: GFM
 
 # Default YAML values (more information on Jekyll's site)
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "minimal"
-      comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
-  -
-    scope:
-      path: "" # all files
-    values:
-      layout: "page"
-      show-avatar: true
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-color: #34495e
+}
+</style>
+</head>
+<body>
+</body>
+</html>
 
 # Use tags pages (not recommended if you are deploying via GitHub pages, only set to true if deploying locally with ruby)
 link-tags: false
