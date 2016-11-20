@@ -15,7 +15,7 @@ p {
 }
 p a {
   /* text-decoration: underline */
-  color: #e7e7e9; /*#This is the color of links that are underlined -> see "About Me" section*/
+  color: #95a5a6; /*#This is the color of links that are underlined -> see "About Me" section*/
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; /*# Pretty sure this is for the huge "My Website" and "About Me"*/
