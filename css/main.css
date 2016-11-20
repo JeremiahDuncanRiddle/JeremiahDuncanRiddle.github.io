@@ -5,9 +5,9 @@
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 18px;
-  color: #c0392b;
+  color: #25282a; /*#Text Color*/
   position: relative;
-  background: #2c3e50;
+  background: #f5f5f5; /*#Pretty sure this is the background color of the body*/
 }
 p {
   line-height: 1.5;
@@ -15,21 +15,21 @@ p {
 }
 p a {
   /* text-decoration: underline */
-  color: #008AFF;
+  color: #e7e7e9; /*#This is the color of links that are underlined -> see "About Me" section*/
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; /*# Pretty sure this is for the huge "My Website" and "About Me"*/
   font-weight: 800;
 }
 a {
-  color: #008AFF;
+  color: #f7931d; /*#IDK*/
 }
 a:hover,
 a:focus {
-  color: #2c3e50;
+  color: #181d1f; /*#IDK -> This could potentially be for the hover color change on the icons at the bottom of the page*/
 }
 blockquote {
-  color: #808080;
+  color: #f7931d; /*#This is the color to the times new roman italic font that tells when the blog was posted*/
   font-style: italic;
 }
 blockquote p:first-child {
@@ -53,7 +53,7 @@ hr.small {
 }
 
 .main-explain-area {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; /*#IDK -> Maybe font that summarizes the blog posts?*/
   padding: 15px inherit;
 }
 
@@ -62,17 +62,17 @@ hr.small {
 }
 
 ::-moz-selection {
-  color: white;
+  color: white; /*#Color of highlighted Text -> Not sure to what section*/
   text-shadow: none;
-  background: #0085a1;
+  background: #25282a; /*#Color of highlighted text*/
 }
 ::selection {
-  color: white;
+  color: white; /*# Same as above...*/
   text-shadow: none;
-  background: #0085a1;
+  background: #25282a;
 }
 img::selection {
-  color: white;
+  color: white; /*# IDK down to disqus*/
   background: transparent;
 }
 img::-moz-selection {
@@ -97,28 +97,28 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background: #2c3e50;
-  border-bottom: 1px solid #EAEAEA;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: #25282a; /*# Navbar color*/
+  border-bottom: 1px solid #EAEAEA; /*# Boarder that divides the navbar from the body*/
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; /*# Navbar text family*/
 }
 
 .navbar-custom .nav li a {
-  text-transform: uppercase;
+  text-transform: uppercase;  /*# All of this dictates the display of the menu items to the right of the icon on the nav bar*/
   font-size: 12px;
   letter-spacing: 1px;
 }
 
 .navbar-custom .navbar-brand,
 .navbar-custom .nav li a {
-  font-weight: 400;
-  color: #ecf0f1;
+  font-weight: 800; /*# Pretty sure this is the weight and color of the navbar text*/
+  color: #f5f5f5;
 }
 
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #0085a1;
+  color: #e7e7e9; /*# I think this is the color that your text changes to on the Navbar when you hover your cursor over it*/ 
 }
 
 @media only screen and (min-width: 768px) {
@@ -238,14 +238,14 @@ img {
 
 footer {
   padding: 30px 0;
-  background: #F5F5F5;
-  border-top: 1px #EAEAEA solid;
+  background: #25282a; /* # Footer Color*/
+  border-top: 1px #25282a solid;  /*# Footer Border*/ 
   margin-top: 50px;
   font-size: 14px;
 }
 
 footer a {
-  color: #404040;
+  color: #f5f5f5;  /*Text and Icon Colors?*/
 }
 
 footer .list-inline {
@@ -267,10 +267,10 @@ footer .theme-by {
     padding: 50px 0;
   }
   footer .footer-links {
-    font-size: 18px;
+    font-size: 18px; # Links below icons
   }
   footer .copyright {
-    font-size: 16px;
+    font-size: 16px; # text below links
   }
 }
  
